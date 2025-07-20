@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav .nav-item .nav-link.active {
+    border-bottom: 2px solid blue;
+    color: blue !important;
+}
+.text-colour {
+    color: rgb(211, 205, 205);
+    font-size: 0.8rem;
+}
+.back-c {
+    background-color: rgb(253, 253, 253);
+}
+.padding-nav {
+    color: #14559b;
+    font-size: 0.95rem;
+    font-weight: 400;
+    padding: 0 8px 0 8px;
+}
+.padding-me {
+    padding: 8px 12px 8px 12px;
+}
+/*.main li a:active {
+    border-bottom: 4px solid #0761c0;
+}*/
+.container-1 {
+    background-image: url(/img/hero-bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+}
+.container-2 {
+    position: relative;
+    max-height: 150vh;
+    background-color: white;
+    width: 100%;
+}
+.line1 {
+    width: 13%;
+    height: 1px;
+    background-color: gray;
+    position: relative;
+}
+.line2 {
+    height: 4px;
+    width: 40%;
+    display: block;
+    background-color: rgb(15, 15, 194);
+    position: absolute;
+    top: -1px;
+    left: 30%;
+}
+.testar:active::before {
+    border-right: 1px solid blue;
+}
+.icon-main {
+    width: 65px;
+    height: 65px;
+    border-radius: 8px;
+    font-size: 2.3rem;
+    background-color: #14559b;
+    box-shadow: -5px -5px #71a9e6;
+}
+.nav-tab .nav-link.active {
+    border-right: 2px solid blue !important; 
+}
+.nav-tab .nav-link {
+    color: black !important;
+    border-right: 2px solid rgb(202, 200, 200);
+}
+.nav-tab .nav-link.active {
+    color: blue !important;
+}
+.backg:hover {
+    background-color: #14559b;
+}
+.backg:hover .icon {
+    color: #14559b;
+}
+.backg:hover .icon-main {
+    background-color: white;
+}
+.backg .icon {
+    color: white;
+}
+.backg .colour1 {
+    color: #14559b;
+}
+.backg:hover .colour1 {
+    color: white;
+}
+.backg .colour2 {
+    color: rgb(48, 46, 46);
+}
+.backg:hover .colour2 {
+    color: white;
+}
+.scalar:hover {
+    transform: scale(1.1, 1,1);
+}
+.colour3 {
+    color: gray;
+    background-color: rgb(247, 241, 241);
+    padding: 8px;
+    font-size: 2.3rem;
+}
+.colour3:hover {
+    color: white;
+    background-color: blue;
+}
+.accordion-header {
+    background-color: #226edf;
+    border-radius: 8px;
+    height: 4.2rem;
+}
+.accordion-head {
+    width: 100%;
+    height: auto;
+    background-color: #226edf;
+    border-radius: 8px;
+}
+.accordion-header a {
+    color: white;
+    word-spacing: 0.06rem;
+    font-size: 1.16rem;
+    padding-bottom: 0.3rem;
+    font-weight: 500;
+}
+.accordion-body {
+    background-color: #226edf;
+    color: white;
+    font-weight: 500;
+    height: auto;
+    padding: 9px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.accordion-header a:hover {
+    color: darkblue;
+}
